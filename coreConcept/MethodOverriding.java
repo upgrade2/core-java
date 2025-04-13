@@ -1,3 +1,5 @@
+package coreConcept;
+
 class A {
     void display() {
         System.out.println("Parent class.");
@@ -6,7 +8,7 @@ class A {
 
 class Child extends A {
     void display() {
-        System.out.println("Child class.");
+        System.out.println("coreConcept.Child class.");
     }
 
     void show() {
