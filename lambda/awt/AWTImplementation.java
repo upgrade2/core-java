@@ -21,6 +21,7 @@ public class AWTImplementation {
         });
         button.setVisible(true);
 
+        frame.setLocationRelativeTo(null);
         frame.add(button);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
